@@ -1,12 +1,17 @@
 #include <stdio.h>
 
-void pocetP (int){
-odcitat cisla od seba
+ void pocetP (int lo, int hi){
+   int i, prvky[100];
+   
+	for (lo<=hi,lo++){
+	prvky[i]=lo;
+}
 
+/* tuto by to malo odcitat cisla od seba a pripisovat do pola */
 
 }
-void dectobin (int a){
-
+ void dectobin (int a){
+	int i=0;
 	for(i=0;n>0;i++)    
 	{    
 		a[i]=n%2;    
@@ -18,9 +23,8 @@ void dectobin (int a){
 		printf("%d",a[i]);    
 	}    
 
-
 }
-
+/*prevod do binarky*/
 
 
 int main (void){
